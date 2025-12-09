@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "messageboard"
+version = "0.1.0a0"
+description = "A synchronization primitive containing a value, allowing threads to concurrently set the value and peek the most recently set value."
+readme = "README.md"
+requires-python = ">=2"
+license = "MIT"
+authors = [
+  { name="Jifeng Wu", email="jifengwu2k@gmail.com" }
+]
+classifiers = [
+    "Programming Language :: Python :: 2",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/jifengwu2k/messageboard"
+"Bug Tracker" = "https://github.com/jifengwu2k/messageboard/issues"
